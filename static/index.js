@@ -58,6 +58,7 @@ playButton.addEventListener("click", function () {
             'url("./static/error.png") no-repeat center center fixed';
         document.body.style.backgroundSize = "cover";
         resetLyrics();
+        document.getElementById('playButton').style.display = 'none';
     }
     
 });
