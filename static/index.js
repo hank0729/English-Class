@@ -45,7 +45,7 @@ playButton.addEventListener("click", function () {
     if (audio.paused) {
         // 播放音樂時的處理
         audio.play();
-        playButton.innerHTML = "暫停";
+        playButton.innerHTML = "停止";
         document.getElementById("img").style.opacity = "0.5";
         document.body.style.background = "white";  // 這一行將背景設置為白色
         fadeInNextLyric();
